@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/estilo.css') }}">
+    <script src="{{url_for('static',filename='js/script.js') }}"></script>
+
+</head>
+
+<body>
+
+    <header class="inheader">
+        <nav class="innav">
+
+            <div class="nombre">
+                <h1><a class="titulo" href="{{url_for('index') }}">Handmade</a></h1>
+            </div>
+            <ul class="lista">
+                <li><a href="{{url_for('index') }}">Quienes somos</a></li>
+                <li><a href="{{url_for('servicios') }}">Servicios</a></li>
+                <li><a href="{{url_for('contacto') }}">Contactanos</a></li>
+                <li><a href="{{url_for('cotiza') }}">Cotiza aqui</a></li>
+                <li><a href="{{url_for('cuento') }}">Diseña tu cuento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    {% block content %}
+    {% endblock %}
+
+
+    <footer>
+        <div>Creado por Jesus David Castro Diaz</div>
+        <div>Fundación Universitaria Catolica del Norte</div>
+        <div class="redes">
+            <li class="pron"><a class="fot" href="https://www.instagram.com/"><img class="red"
+                        src="{{url_for('static',filename='imagen/instagram.png') }}" alt="S2" /></a>
+                <p>Intagram</p>
+            </li>
+            <div class="espacio"> </div>
+            <li class="pron"> <a class="fot" href="https://www.facebook.com/"><img class="red"
+                        src="{{url_for('static',filename='imagen/facebook.png') }}" alt="S3" /></a>
+                <p>Facebook</p>
+            </li>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

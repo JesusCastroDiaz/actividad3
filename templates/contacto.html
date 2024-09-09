@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+
+
+<div class="contacto">
+    <h3>CONTACTANOS</h3>
+    <p>Estamos dispuestos a darte lo mejor, escibenos o contactanos a traves de nuestros canales </p>
+    <br>
+    <div class="dig">
+        <div class="medio"><img height="100" width="100" src="{{url_for('static',filename='imagen/telefono.png') }}"
+                alt="S1" />
+            <p>+57 300 656 6565</p>
+        </div>
+        <div class="espacio3"></div>
+        <div class="medio"><img height="100" width="100" src="{{url_for('static',filename='imagen/correo.png') }}"
+                alt="S1" />
+            <p>contacto@handmadecol.co</p>
+        </div>
+        <div class="espacio3"></div>
+        <div class="medio"><img height="100" width="100" src="{{url_for('static',filename='imagen/ubicacion.png') }}"
+                alt="S1" />
+            <p>calle23, Medellin,
+                Antioquia</p>
+        </div>
+    </div>
+</div>
+
+<div class="map1">
+    <iframe class="map2"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d991.5707232276372!2d-75.59768547496266!3d6.226383029249895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1723417270751!5m2!1ses-419!2sco"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+{% endblock %}

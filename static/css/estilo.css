@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+nav {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 1.5%;
+    height: 60px;
+    background-color: #606676;
+    position: fixed;
+}
+
+.titulo {
+    color: #FEF3E2;
+}
+
+a {
+    color: #FEF3E2;
+}
+
+nav .nombre {
+
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    font-size: 30px;
+    align-content: center;
+}
+
+nav .lista {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav .lista a {
+    display: block;
+    text-transform: uppercase;
+    padding: 16px;
+    font-size: 16px;
+}
+
+nav .lista a:hover {
+    border-bottom: 2px solid #FEF3E2;
+    font-size: 17px;
+}
+
+
+.somos {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 5%;
+    width: 100%;
+    color: #2e364d;
+}
+
+.paraf {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.foto {
+    margin-left: 35px;
+    align-self: center;
+    width: 250px;
+    height: 335px;
+}
+
+.fyt {
+    display: flex;
+}
+
+
+h3 {
+    margin-left: 25px auto;
+}
+
+.info1 {
+    text-align: justify;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 200px;
+    font-size: 27px;
+}
+
+.info2 {
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 5%;
+    width: 100%;
+    color: #2e364d;
+    font-size: 25px;
+}
+
+
+.serf {
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+
+.serf:hover {
+    display: flex;
+    width: 260px;
+    height: 260px;
+
+}
+
+.ser1 {
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 00px;
+}
+
+
+
+.espacio2 {
+    width: 60px;
+}
+
+.serl {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 19px;
+}
+
+
+
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 5%;
+    width: 100%;
+    color: #2e364d;
+    font-size: 25px;
+}
+
+.dig {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+
+.medio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.map1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.map2 {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-self: center;
+    margin-top: 35px;
+
+}
+
+
+.espacio3 {
+    width: 100px;
+}
+
+
+.cotiza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 5%;
+    width: 100%;
+    color: #2e364d;
+    font-size: 25px;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    align-content: center;
+    color: #2e364d;
+}
+
+
+.red {
+    width: 38px;
+    height: 38px;
+}
+
+div .pron {
+    display: block;
+}
+
+.espacio {
+    width: 20px;
+}
+
+.redes {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+.datos {
+
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+
+}
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-color: #626368;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+}
+
+input {
+    background-color: #cbd4f5;
+    margin: 7px;
+    width: 250px;
+    height: 40px;
+    border-radius: 90px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boton {
+
+    background-color: #3b4566;
+    margin: 7px;
+    width: 125px;
+    height: 35px;
+    border-radius: 90px;
+    text-align: center;
+    color: #cbd4f5;
+
+}
+
+.resultado {
+    display: flex;
+    width: 700px;
+    height: 370px;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.result {
+
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    height: 370px;
+
+}
+
+.result {
+
+    font-size: 30px;
+    text-align: justify;
+    margin: 50px;
+}
+
+
+
+.nombred,
+.ciudad,
+.direc,
+.cel,
+.can {
+    background-color: aqua;
+
+}
+
+
+.rd {
+    display: flex;
+
+}
+
+label {
+    text-align: center;
+
+}
+
+.rdscont {
+    display: flex;
+    align-content: center;
+
+}
+
+.coti {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    width: 1000px;
+    height: 400px;
+    margin: 10px;
+    border-color: #626368;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+}
+
+
+.gt {
+    background-color: #606676;
+    border-radius: 50px;
+    margin: 50px;
+    color: #cbd4f5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 120px;
+    height: 50px;
+
+}
+
+.gt:hover {
+    width: 129px;
+    height: 59px;
+
+}
+
+
+.resultadopedido {
+
+    font-size: 16px;
+
+}
+
+th,
+td {
+    width: 80px;
+    text-align: center;
+}

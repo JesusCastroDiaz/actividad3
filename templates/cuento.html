@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2>CUENTO</h2>
+
+<div class="cotiza">
+    <div>
+        <h2>Diseña tu cuento</h2>
+    </div>
+    <p>Ingresa los siguientes datos para crear tu cuento</p>
+</div>
+
+<div class="datos">
+
+    <form autocomplete="off" method="post" class="form" id="palabras">
+        <br>
+        <p>Datos</p>
+        <input type="text" name="nombres" class="nombres" id="word1" placeholder="¿cual es tu nombre?" required>
+        <input type="text" name="apellidos" class="apellidos" id="word2" placeholder="¿cual es tu apellido?" required>
+        <input type="text" name="apodo" class="apodo" id="word3" placeholder="¿Cual es tu apodo?" required>
+        <input type="text" name="cabello" class="cabello" id="word4" placeholder="¿cual es tu color de cabello?"
+            required>
+        <input type="text" name="ojos" class="ojos" id="word5" placeholder="¿cual es el color de tus ojos?" required>
+        <input type="text" name="" class="hobbi" id="word6" placeholder="¿que hobby tienes?" required>
+
+        <button onclick="historia()" type="button" class="boton">Crear historia</button>
+    </form>
+    <div class="result" id="respuesta">Aqui se mostrara tu cuento</div>
+</div>
+
+</form>
+
+<br>
+<br>
+<br>
+<br>
+
+{% endblock %}

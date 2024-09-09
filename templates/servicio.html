@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="servicio">
+    <h3>SERVICIOS</h3>
+    <p>tenemos en stock los siguientes productos.</p>
+    <br>
+
+    <div class="ser1">
+        <li class="serl"><img class="serf" src="{{url_for('static',filename='imagen/libro.png') }}" alt="S1" />Libro en
+            blanco tapa de cuero</li>
+        <div class="espacio2"> </div>
+        <li class="serl"><img class="serf" src="{{url_for('static',filename='imagen/camiseta.png') }}"
+                alt="S2" />Camisetas con frases</li>
+        <div class="espacio2"> </div>
+        <li class="serl"><img class="serf" src="{{url_for('static',filename='imagen/maceta.png') }}" alt="S3" />Macetas
+            en concreto</li>
+        <div class="espacio2"> </div>
+        <li class="serl"><img class="serf" src="{{url_for('static',filename='imagen/poster.png') }}" alt="S4" />Posters
+            creativos</li>
+    </div>
+
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+{% endblock %}

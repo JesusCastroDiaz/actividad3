@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h2>COTIZA</h2>
+<br>
+
+<div class="cotiza">
+    <form action="/datos" method="POST" class="coti" id="fcotiza">
+
+
+        <input type="text" name="nombre" class="nombred" id="nombre" placeholder="¿cual es tu nombre?">
+        <input type="text" name="ciudad" class="ciudad" id="ciudad" placeholder="¿cual es tu ciudad?">
+        <input type="text" name="direccion" class="direc" id="direc" placeholder="¿Cual es tu direccion?">
+        <input type="text" name="celular" class="cel" id="cel" placeholder="¿numero de telefono?">
+        <input type="text" name="cantidad" class="can" id="can" placeholder="¿cuantos productos?">
+        <div class="rdscont">
+            <label><input type="radio" class="rd" name="idprod" id="box0" value="1101" />Libro creativo</label>
+            <label><input type="radio" class="rd" name="idprod" id="box1" value="1102" />Camiseta Personalizada</label>
+            <label><input type="radio" class="rd" name="idprod" id="box2" value="1103" />Maceta en concreto</label>
+            <label><input type="radio" class="rd" name="idprod" id="box3" value="1104" />poster colonial</label>
+        </div>
+
+
+        <button type="submit" class="gt">guardar</button>
+    </form>
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    {% endblock %}
